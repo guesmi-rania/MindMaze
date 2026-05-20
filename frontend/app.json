@@ -23,10 +23,10 @@
       "predictiveBackGestureEnabled": false,
       "package": "com.rania6.mindmaze"
     },
-    "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
+  "web": {
+  "output": "single",
+  "favicon": "./assets/images/favicon.png"
+},
     "plugins": [
         [ "expo-splash-screen",
         {
@@ -41,7 +41,6 @@
       ]
     ],
     "extra": {
-      "router": {},
       "eas": {
         "projectId": "d3ffd614-b69d-4591-9dad-5b3e947ea34a"
       }
